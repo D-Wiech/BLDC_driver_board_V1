@@ -1,0 +1,383 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ea1ebdd7-dec6-4eb1-939e-043d962958ba)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GNDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDD" (at 0 -3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDD\" , digital ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDD_0_1"
+        (rectangle (start -1.27 -1.524) (end 1.27 -2.032)
+          (stroke (width 0.254) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDD_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDPWR" (at 0 -3.302 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDPWR\" , power ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDPWR_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -1.27)
+            (xy -1.27 -2.032)
+            (xy -1.27 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 -1.27)
+            (xy -0.762 -2.032)
+            (xy -0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy -0.254 -2.032)
+            (xy -0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 -1.27)
+            (xy 0.254 -2.032)
+            (xy 0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy -1.016 -1.27)
+            (xy -1.016 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDPWR_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDPWR" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 144.78 138.43) (diameter 0) (color 0 0 0 0)
+    (uuid 20047944-9147-4bae-a7b3-53cde27eeee1)
+  )
+
+  (wire (pts (xy 137.16 138.43) (xy 144.78 138.43))
+    (stroke (width 0) (type default))
+    (uuid 3ff9a09e-52ed-450a-a718-a1b916e33e2a)
+  )
+  (wire (pts (xy 144.78 138.43) (xy 153.67 138.43))
+    (stroke (width 0) (type default))
+    (uuid 5f3c5fcd-e0fe-4ec2-901c-9439d143f04f)
+  )
+
+  (text "Digital Erde und Leistungs Erde\nUnter dem Treiber verbinden"
+    (at 132.08 149.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1a40cc3a-ea3a-4919-b392-46735409a485)
+  )
+
+  (symbol (lib_id "power:GND") (at 144.78 138.43 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 13389788-b618-43a5-aa96-98a7a91963a1)
+    (property "Reference" "#PWR060" (at 144.78 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 144.78 143.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 144.78 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 144.78 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cec81441-fef2-4c22-b956-78bb46e6e310))
+    (instances
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/b6c7a7f0-b34d-420b-83a5-2427791bd0dd"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/ab8457a6-e63a-4f11-937b-8688f5eef40d"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba"
+          (reference "#PWR038") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 153.67 138.43 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 13921a35-2981-4dbb-ae8d-e8ee339689f1)
+    (property "Reference" "#PWR037" (at 153.67 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 153.543 143.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 153.67 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 153.67 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 113fff71-a83e-4cd9-99ed-fd27d0dd6695))
+    (instances
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/811251a6-2311-424e-9fa8-98f53029de6a"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/811251a6-2311-424e-9fa8-98f53029de6a"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/83cf1bd1-db0b-42ae-9b39-49e6b820efde"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 137.16 138.43 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e2fbc664-6350-4b03-bcf5-8bd081e39cc8)
+    (property "Reference" "#PWR036" (at 137.16 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 137.16 143.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 137.16 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f5af4cad-1775-4be2-be91-da7d169aedcb))
+    (instances
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/811251a6-2311-424e-9fa8-98f53029de6a"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/811251a6-2311-424e-9fa8-98f53029de6a"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/83cf1bd1-db0b-42ae-9b39-49e6b820efde"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 199.39 85.09) (size 27.94 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2)
+    (property "Sheetname" "Spannungsversorgung_usw" (at 199.39 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Spannungsversorgung_usw.kicad_sch" (at 199.39 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 87.63 85.09) (size 31.75 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 83cf1bd1-db0b-42ae-9b39-49e6b820efde)
+    (property "Sheetname" "Treiber" (at 87.63 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Treiber.kicad_sch" (at 87.63 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 163.83 85.09) (size 27.94 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ab8457a6-e63a-4f11-937b-8688f5eef40d)
+    (property "Sheetname" "Anschlüsse" (at 163.83 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Anschlüsse.kicad_sch" (at 163.83 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 127 85.09) (size 30.48 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b227df8c-9c41-4a81-949c-e44e09b7804f)
+    (property "Sheetname" "Halbrücken" (at 127 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Halbrücken.kicad_sch" (at 127 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,226 @@
+!SESSION 2023-09-05 17:49:36.961 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-05 17:49:49.106
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-05 17:49:49.112
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-05 17:49:51.806
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-05 17:50:51.144
+!MESSAGE Indexed 'MCU_Board_BGA_BLDC_Driver' (43 sources, 112 headers) in 5.35 sec: 15,828 declarations; 135,771 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0013%)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2023-09-05 17:53:25.429
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\Daniel\AppData\Local\Temp\STM32CubeIDE_bddc1042-7ef4-42e5-a666-3c077e87f1cd
+!SESSION 2023-09-05 17:53:42.371 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/Daniel/OneDrive/Etechnik/Projekte/Buerstenloser_Gleichstrommotor_Treiber/CODE/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-05 17:54:12.052
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-05 17:54:12.054
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-05 17:54:17.306
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-05 18:20:20.271 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-05 18:20:27.746
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-05 18:20:27.748
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-05 18:20:33.056
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-06 08:13:23.979 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-06 08:14:19.872
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-06 08:14:19.876
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-06 08:14:25.035
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-07 09:55:19.645 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-07 09:55:50.084
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-07 09:55:50.087
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-07 09:55:55.434
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-08 08:58:34.278 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-08 08:58:42.230
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-08 08:58:42.234
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-08 08:58:47.386
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-09 09:41:08.111 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-09 09:45:30.919
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-09 09:45:30.923
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-09 09:45:36.709
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-14 08:33:32.412 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-14 08:33:44.581
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-14 08:33:44.585
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-14 08:33:50.592
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-09-14 08:48:15.790
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.actions.DsfSuspendCommand$4$1@62a30805): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Suspend operation timeout.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-09-14 08:48:15.790
+!MESSAGE Suspend operation timeout.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-09-14 08:58:38.664
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@3ab08ddc): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Suspend operation timeout.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-09-14 08:58:38.664
+!MESSAGE Suspend operation timeout.
+!SESSION 2023-09-14 21:08:34.258 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-14 21:08:42.038
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-14 21:08:42.041
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-14 21:08:47.914
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-15 08:52:13.980 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-15 08:52:28.305
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-15 08:52:28.308
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-15 08:52:33.684
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-15 20:52:46.430 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-15 20:52:57.062
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-15 20:52:57.066
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-15 20:53:03.309
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-15 21:49:31.594 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-15 21:49:46.247
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-15 21:49:46.250
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-15 21:49:51.451
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-16 08:53:03.390 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-16 08:53:16.661
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-16 08:53:16.666
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-16 08:53:22.564
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-16 09:59:33.608 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-16 09:59:40.421
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-16 09:59:40.425
+!MESSAGE Log4j2 initialized with config file C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-16 09:59:46.416
+!MESSAGE Started RMI Server, listening on port 41337

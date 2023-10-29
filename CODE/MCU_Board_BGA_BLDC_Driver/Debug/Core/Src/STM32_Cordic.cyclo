@@ -1,0 +1,8 @@
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cordic.h:302:22:LL_CORDIC_Config	1
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cordic.h:732:22:LL_CORDIC_WriteData	1
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cordic.h:743:26:LL_CORDIC_ReadData	1
+../Core/Src/STM32_Cordic.c:13:7:fast_Sinus	3
+../Core/Src/STM32_Cordic.c:51:7:fast_Cosinus	3
+../Core/Src/STM32_Cordic.c:90:7:fast_atan2	5
+../Core/Src/STM32_Cordic.c:130:7:fast_sqrt	8
+../Core/Src/STM32_Cordic.c:190:6:fast_Sinus_Cosinus	3

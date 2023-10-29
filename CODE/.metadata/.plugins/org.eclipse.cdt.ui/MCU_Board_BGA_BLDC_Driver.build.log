@@ -1,0 +1,234 @@
+12:54:10 **** Incremental Build of configuration Debug for project MCU_Board_BGA_BLDC_Driver ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:226:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  226 |   HAL_ADC_Start_DMA(&hadc1, ADC1_result, 3);
+      |                             ^~~~~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:303,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h:1961:78: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+ 1961 | HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                                    ~~~~~~~~~~^~~~~
+../Core/Src/main.c:227:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  227 |   HAL_ADC_Start_DMA(&hadc2, ADC2_result, 3);
+      |                             ^~~~~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:303,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h:1961:78: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+ 1961 | HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                                    ~~~~~~~~~~^~~~~
+../Core/Src/main.c:228:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  228 |   HAL_ADC_Start_DMA(&hadc3, ADC3_result, 3);
+      |                             ^~~~~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:303,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h:1961:78: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+ 1961 | HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                                    ~~~~~~~~~~^~~~~
+../Core/Src/main.c:249:18: warning: unused variable 'Temperature' [-Wunused-variable]
+  249 |   static int32_t Temperature;
+      |                  ^~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:1382:44: warning: passing argument 2 of 'HAL_SPI_Receive_IT' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1382 |                 HAL_SPI_Receive_IT(&hspi3, &SENSOR_HALL_DATA, 1);
+      |                                            ^~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:447,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:870:72: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  870 | HAL_StatusTypeDef HAL_SPI_Receive_IT(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size);
+      |                                                               ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'debug_uart4_write_text':
+../Core/Src/main.c:1390:54: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+ 1390 |         if (HAL_UART_Transmit(&huart4, pData, strlen(pData), 10000) != HAL_OK)
+      |                                                      ^~~~~
+      |                                                      |
+      |                                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:27:
+C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:41:18: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t   strlen (const char *);
+      |                  ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'debug_uart4_write_float':
+../Core/Src/main.c:1403:40: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+ 1403 |         if (HAL_UART_Transmit(&huart4, temp, 10, 10000) != HAL_OK)
+      |                                        ^~~~
+      |                                        |
+      |                                        char *
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:463,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'Send_Command_Driver':
+../Core/Src/main.c:1416:44: warning: passing argument 2 of 'HAL_SPI_TransmitReceive' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1416 |         if(HAL_SPI_TransmitReceive(&hspi2, &TX, RX, length, Timeout) != HAL_OK)
+      |                                            ^~~
+      |                                            |
+      |                                            uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:447,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:867:83: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  867 | HAL_StatusTypeDef HAL_SPI_TransmitReceive(SPI_HandleTypeDef *hspi, const uint8_t *pTxData, uint8_t *pRxData,
+      |                                                                    ~~~~~~~~~~~~~~~^~~~~~~
+../Core/Src/main.c:1416:49: warning: passing argument 3 of 'HAL_SPI_TransmitReceive' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1416 |         if(HAL_SPI_TransmitReceive(&hspi2, &TX, RX, length, Timeout) != HAL_OK)
+      |                                                 ^~
+      |                                                 |
+      |                                                 uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:447,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:867:101: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  867 | HAL_StatusTypeDef HAL_SPI_TransmitReceive(SPI_HandleTypeDef *hspi, const uint8_t *pTxData, uint8_t *pRxData,
+      |                                                                                            ~~~~~~~~~^~~~~~~
+../Core/Src/main.c: In function 'Driver_set_up':
+../Core/Src/main.c:1438:24: warning: unused variable 'GATE_DRIVE_LS_REG' [-Wunused-variable]
+ 1438 |         const uint16_t GATE_DRIVE_LS_REG = 0x2000;
+      |                        ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:1437:24: warning: unused variable 'GATE_DRIVE_HS_REG' [-Wunused-variable]
+ 1437 |         const uint16_t GATE_DRIVE_HS_REG = 0x1800;
+      |                        ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:1435:24: warning: unused variable 'FAULT_STATUS2_REG' [-Wunused-variable]
+ 1435 |         const uint16_t FAULT_STATUS2_REG = 0x0800;
+      |                        ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:1434:24: warning: unused variable 'FAULT_STATUS1_REG' [-Wunused-variable]
+ 1434 |         const uint16_t FAULT_STATUS1_REG = 0;
+      |                        ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'Send_Command_Sensor':
+../Core/Src/main.c:1513:44: warning: passing argument 2 of 'HAL_SPI_TransmitReceive' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1513 |         if(HAL_SPI_TransmitReceive(&hspi3, &TX, RX, length, Timeout) != HAL_OK)
+      |                                            ^~~
+      |                                            |
+      |                                            uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:447,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:867:83: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  867 | HAL_StatusTypeDef HAL_SPI_TransmitReceive(SPI_HandleTypeDef *hspi, const uint8_t *pTxData, uint8_t *pRxData,
+      |                                                                    ~~~~~~~~~~~~~~~^~~~~~~
+../Core/Src/main.c:1513:49: warning: passing argument 3 of 'HAL_SPI_TransmitReceive' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1513 |         if(HAL_SPI_TransmitReceive(&hspi3, &TX, RX, length, Timeout) != HAL_OK)
+      |                                                 ^~
+      |                                                 |
+      |                                                 uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:447,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h:867:101: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  867 | HAL_StatusTypeDef HAL_SPI_TransmitReceive(SPI_HandleTypeDef *hspi, const uint8_t *pTxData, uint8_t *pRxData,
+      |                                                                                            ~~~~~~~~~^~~~~~~
+../Core/Src/main.c: In function 'Hall_sensor_calibration_val_gen':
+../Core/Src/main.c:1728:32: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1728 |         debug_uart4_write_text("Reference Angle [degree],Measured Angle [degree] \n");
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c:1762:48: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1762 |                         debug_uart4_write_text(",");
+      |                                                ^~~
+      |                                                |
+      |                                                char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c:1764:48: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1764 |                         debug_uart4_write_text("\r\n");
+      |                                                ^~~~~~
+      |                                                |
+      |                                                char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'Hall_sensor_calibration_look_up_table_gen':
+../Core/Src/main.c:1778:32: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1778 |         debug_uart4_write_text("Look up table Generation: \r\n");
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c:1814:40: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1814 |                 debug_uart4_write_text(",");
+      |                                        ^~~
+      |                                        |
+      |                                        char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c:1816:40: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1816 |                 debug_uart4_write_text("\r\n");
+      |                                        ^~~~~~
+      |                                        |
+      |                                        char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'proportinal_PWM_to_act_val':
+../Core/Src/main.c:1823:57: warning: unused variable 'min_value' [-Wunused-variable]
+ 1823 |         const uint16_t max_value = 3999; const uint16_t min_value = 0;
+      |                                                         ^~~~~~~~~
+../Core/Src/main.c: In function 'Current_sensor_calibration':
+../Core/Src/main.c:1858:32: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1858 |         debug_uart4_write_text("Starting Currentsensor Calibration \r\n");
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c:1879:32: warning: pointer targets in passing argument 1 of 'debug_uart4_write_text' differ in signedness [-Wpointer-sign]
+ 1879 |         debug_uart4_write_text("Finished Currentsensor Calibration \r\n");
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                char *
+../Core/Src/main.c:1387:51: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1387 | HAL_StatusTypeDef debug_uart4_write_text(uint8_t *pData)
+      |                                          ~~~~~~~~~^~~~~
+At top level:
+../Core/Src/main.c:249:18: warning: 'Temperature' defined but not used [-Wunused-variable]
+  249 |   static int32_t Temperature;
+      |                  ^~~~~~~~~~~
+../Core/Src/main.c:84:20: warning: 'Bit12_to_Volt' defined but not used [-Wunused-const-variable=]
+   84 | static const float Bit12_to_Volt = 8.0586080586080586080586080586081e-4f;
+      |                    ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MCU_Board_BGA_BLDC_Driver.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Daniel\OneDrive\Etechnik\Projekte\Buerstenloser_Gleichstrommotor_Treiber\CODE\MCU_Board_BGA_BLDC_Driver\STM32H723VGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MCU_Board_BGA_BLDC_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MCU_Board_BGA_BLDC_Driver.elf
+ 
+arm-none-eabi-size   MCU_Board_BGA_BLDC_Driver.elf 
+arm-none-eabi-objdump -h -S  MCU_Board_BGA_BLDC_Driver.elf  > "MCU_Board_BGA_BLDC_Driver.list"
+   text	   data	    bss	    dec	    hex	filename
+  88904	    480	   4984	  94368	  170a0	MCU_Board_BGA_BLDC_Driver.elf
+Finished building: default.size.stdout
+ 
+Finished building: MCU_Board_BGA_BLDC_Driver.list
+ 
+
+12:54:12 Build Finished. 0 errors, 26 warnings. (took 1s.891ms)
+

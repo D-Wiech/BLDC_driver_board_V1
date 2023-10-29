@@ -1,0 +1,7 @@
+../Core/Src/angleinterpolation.c:4:14:modulo	24	static
+../Core/Src/angleinterpolation.c:10:12:moduloInt	24	static
+../Core/Src/angleinterpolation.c:16:7:interpolateAngleFromConstantsAndSlopes	40	static
+../Core/Src/angleinterpolation.c:32:7:interpolateAngleFromConstantsAndSlopesUsingLinearSearch	48	static
+../Core/Src/angleinterpolation.c:61:7:interpolateAngleFromFittedCurve	64	static
+../Core/Src/angleinterpolation.c:85:7:mu	32	static
+../Core/Src/angleinterpolation.c:90:7:linearInterpolate	24	static
